@@ -1,0 +1,50 @@
+* {
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+body {
+    margin: 0px;
+}
+
+#slideshow {
+    width: 90%;
+    height: 80vh;
+    margin: 10vh auto;
+    background-image: url('../assets/vw2.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#slideshow a {
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+    width: 50px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+}
+
+#pre {
+    left: 0;
+    padding-left:10px;  
+}
+
+#pre:hover {
+    padding-left:0px;
+    color: aqua; 
+
+}
+
+#next {
+    right:0;
+    padding-right: 10px;
+}
+
+#next:hover {
+    padding-right: 0px;
+    color: aqua;
+}
+
